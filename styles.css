@@ -1,0 +1,160 @@
+
+i {
+    color: rgb(171, 95, 3);
+    font-size: 22px;
+}
+
+a {
+    font-size: 22px;
+    color: rgb(14, 112, 34);
+    text-decoration: none;
+}
+
+.email-container {
+    text-align: right;
+    color: #fff;
+    display: flex;
+}
+
+.email {
+    margin-right: 20px;
+    font-family: "Anton", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.email i {
+    margin-right: 5px;
+    font-size: 22px;
+    color: rgb(171, 95, 3);
+}
+
+.email a {
+    font-size: 22px;
+    color: rgb(14, 112, 34);
+    text-decoration: none;
+}
+
+
+.info{
+    
+    text-align: center;
+    font-size: 30px;
+   width: 500px;
+   margin-left: 500px;
+   font-family: "Pacifico" ,sans-serif ;
+
+}
+
+
+img{
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+.work {
+    background-color: rgb(231, 56, 56);
+    margin-left: auto; /* Otomatik hizalama, diğer öğelerden bağımsız olarak */
+    margin-right: auto; /* Otomatik hizalama, diğer öğelerden bağımsız olarak */
+    padding: 15px 30px;
+    border: 1px solid rgb(255, 102, 158);
+    border-radius: 15px;
+    color: rgb(68, 33, 37);
+    display: block; /* Butonun genişlik ve yükseklik değerlerini etkinleştirmek için */
+    text-align: center; /* Metni ortala */
+    text-decoration: none;
+}
+
+.work:hover {
+    color: rgb(248, 71, 71);
+    background-color: #212139;
+}
+
+/* styles.css */
+
+body {
+    background-color: #8B4513; /* Açık kahverengi */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #444; /* Üst kısmın arkaplan rengi, ihtiyaca göre ayarla */
+}
+
+.profile-info-container {
+    overflow: hidden;
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff; /* Beyaz renk */
+}
+
+.profile-image {
+    width: 40%; /* Profil resminin genişliği */
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px; /* İhtiyaca göre ayarla */
+}
+
+.profile-text {
+    width: 60%; /* Profil metni genişliği */
+    padding: 20px;
+    text-align: left; /* Metni sola hizala */
+}
+
+.logo {
+    width: 300px; /* Logo genişliği */
+    height: auto;
+    margin-bottom: 20px; /* İhtiyaca göre ayarla */
+}
+
+.left-side {
+    text-align: left;
+    color: #fff; /* Beyaz renk */
+}
+
+.email-container {
+    text-align: right;
+    color: #fff; /* Beyaz renk */
+}
+
+.email:hover::after {
+    content: attr(data-tooltip);
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 20px; /* Sağ üst köşe */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    z-index: 1;
+}
+
+.work {
+    background-color: #8B4513; /* Butonun arkaplan rengi */
+    color: #fff; /* Metin rengi */
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.bottom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #666; /* Alt kısmın arkaplan rengi, ihtiyaca göre ayarla */
+}
+
